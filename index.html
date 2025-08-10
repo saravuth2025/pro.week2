@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Info Page</h1>
+        <nav>
+            <a href="#form">Form</a>
+            <a href="#table">Table</a>
+            <a href="#photo">Photo</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Form Section -->
+    <section id="form">
+        <h2>Fill Your Details</h2>
+        <form action="#" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last name :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label>Gender:</label>
+            <div class="gender-options">
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="cambodia">Cambodia</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Table Section -->
+    <section id="table">
+        <h2>Sample Information Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Date of Birth</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kry Saravuth</td>
+                    <td>Male</td>
+                    <td>17-02-2006</td>
+                    <td>ravuthkry129@gmail.com</td>
+                    <td>Cambodia</td>
+                </tr>
+                <tr>
+                    <td>The Weeknd</td>
+                    <td>Male</td>
+                    <td>16-02-1990</td>
+                    <td>theweeknd30@gmail.com</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Ronaldo</td>
+                    <td>Male</td>
+                    <td>05-02-1985</td>
+                    <td>cristiano.ronaldo40@gmail.com</td>
+                    <td>Portugal</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Photo Section -->
+    <section id="photo">
+        <h2 style="text-align:center">My Photo</h2>
+        <div class="photo-container">
+            <img src="vuth.jpeg" alt="My Photo" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me!</h2>
+        <p><i class="fas fa-phone"></i> +855 967565827</p>
+        <p><i class="fas fa-envelope"></i> kry.saravuth25@kit.edu.kh | ravuthkry129@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Takhmao / Kirirom, Cambodia</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1C4Vf1ssUr/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://t.me/Xeroxe_henryy" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.youtube.com/@Saravuthdevper" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/xeroxe_roxe?igsh=OGdldnJ3NDc5Y2Q2" taget="blank"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/saravuth2025" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Saravuth. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

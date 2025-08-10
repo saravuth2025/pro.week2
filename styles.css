@@ -1,0 +1,115 @@
+/* General Page Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e8f4fa;
+    color: #333;
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: #35637f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Section Styling */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form select, form button {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #1f3b4d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+form button:hover {
+    background-color: #143043;
+}
+.gender-options {
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+thead {
+    background-color: #1f3b4d;
+    color: white;
+}
+
+/* Photo Styling */
+.photo-container {
+    text-align: center;
+}
+.profile-photo {
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Contact & Social Icons */
+.social-icons {
+    margin-top: 15px;
+}
+.social-icons i {
+    font-size: 28px;
+    margin: 0 10px;
+    color: #1f3b4d;
+    transition: color 0.3s;
+}
+.social-icons i:hover {
+    color: #0077ff;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
